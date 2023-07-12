@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <!--Parti a faire pour se log-->
+
+    <div id="erreurmessage" style="display: none;">erreur durant le login</div>
+    <div id="LogForm">
+        <input type="text" id="username" placeholder="Username">
+        <br>
+        <input type="password" id="password" placeholder="Password">
+        <br>
+        <button onclick="FunctionLogAPI()">Connexion</button>
+    </div>
+
+   
+
+    <!--Parti d'affichage a faire-->
+    <!--Graph skill go-->
+    <div id="AllGraph" style="display: none;">
+
+        <div id="Profile">
+            <div id="Image"></div>
+            <div id="Firstname"></div>
+            <div id="Lastname"></div>
+            <div id="email"></div>
+        </div>
+
+        <div id="GraphName">Skill-Go</div>
+        <div id="graphContainer"></div>
+        <!-- Graph xp-->
+        <div id="GraphName">XP Progression</div>
+        <div id="graphContainerProgress"></div>
+        <!--graph ratio-->
+        <!--<div id="GraphName">Audit Ratio</div>
+        <div id="graphContainerRatio"></div>-->
+        <button id="Logout" onclick="Logout()">Logout</button>
+    </div>
+    <!--Script Javascript-->
+    <script src="script/main.js"></script>
+</body>
+
+</html>
